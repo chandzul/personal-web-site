@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
   --primary-color: #F53847;
@@ -28,16 +28,22 @@ body {
 h5{
   font-size: 18px;
   color: var(--gray-color);
+  margin-top: 8px;
   margin-bottom: 32px;
 }
 
 p {
   margin-bottom: 16px;
+  color: #747474;
 }
 
 a {
   color: var(--primary-color);
   font-weight: 600;
+}
+
+span {
+  margin-bottom: 32px;
 }
 
 .btn-primary {
@@ -236,6 +242,20 @@ nav > a > img {
   .hero__body--image,
   .hero__body--texts{
     width: 100%;
+  }
+
+  .hero__body--texts{
+    margin-top: 32px;
+  }
+
+  .hero__body--texts > h5 {
+    font-size: 24px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 
 }
