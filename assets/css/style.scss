@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  --primary-color: #F53847;
+  --primary-color: #AC00FC;
+  --secodary-color: #F3A10F;
   --gray-color: #393939;
+  --black-color: #000000;;
 }
 
 * {
@@ -57,13 +59,15 @@ span {
 
 header {
   padding: 26px;
-
-  // border: 1px solid red;
   border-bottom: 1px solid #f1f1f1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+#logotype #bg {
+  fill: var(--primary-color);
 }
 
 nav {
@@ -76,8 +80,8 @@ nav {
 nav > a {
   margin-right: 32px;
   text-transform: uppercase;
-  font-weight: 500;
-  color: #f1f1f1;
+  font-weight: 600;
+  color: var(--black-color);
 }
 
 nav > a.active{
@@ -104,10 +108,6 @@ nav > a.active::before{
 nav > a > img {
   width: 28px;
   height: 28px;
-}
-
-.container {
-
 }
 
 .hero__body {
@@ -154,6 +154,19 @@ nav > a > img {
 #Ellipse_16 {
   animation: bounce 10s infinite;
   -webkit-animation: bounce 10s infinite;
+  fill: var(--primary-color);
+}
+
+circle#Ellipse_17,
+#Ellipse_11,
+#Ellipse_13,
+#Ellipse_14
+ {
+  fill: var(--primary-color);
+}
+
+path#Path_11 {
+  fill: var(--black-color);
 }
 
 
