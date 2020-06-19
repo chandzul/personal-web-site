@@ -201,6 +201,16 @@ nav > a > img {
 }
 
 
+@media screen and(max-width: 900px) {
+  .hero__body--image{
+    width: 50%;
+  }
+  
+  .hero__body--texts {
+    width: 40%;
+  }
+}
+
 @media screen and(max-width: 500px) {
 
   header {
