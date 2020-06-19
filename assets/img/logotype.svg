@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="logotype" transform="translate(-142 -36)">
+    <rect id="bg" width="64" height="64" transform="translate(142 36)" fill="#f53847"/>
+    <g id="simbol" transform="translate(50.447 -4)">
+      <path id="simbol2" d="M21,21h0A20.861,20.861,0,0,1,6.151,14.849,20.862,20.862,0,0,1,0,0H21V5.177H10.5A10.687,10.687,0,0,0,21,15.822V21Z" transform="translate(105.553 65)" fill="#fff"/>
+      <path id="simbol1" d="M21,21H0A21,21,0,0,1,21,0V5.178A10.687,10.687,0,0,0,10.5,15.823H21V21Z" transform="translate(142.553 79) rotate(180)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
