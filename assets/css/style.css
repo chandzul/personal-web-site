@@ -363,13 +363,13 @@ path#Path_11 {
     margin-top: 10px;
   }
   .footer__email > a {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__email > a {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
