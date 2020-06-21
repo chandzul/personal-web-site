@@ -141,6 +141,33 @@ nav > a > img {
   margin-right: 16px;
 }
 
+// Footer
+
+footer{
+  background-color: var(--black-color);
+  margin-top: 60px;
+  padding: 60px 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer__email > a {
+  color: #FFFFFF;
+  font-size: 48px;
+}
+
+.footer__logo,
+.footer__email,
+.footer__love {
+  margin-bottom: 40px;
+  color: var(--gray-color);
+  text-align: center;
+}
+
 // #Path_2,
 #Path_3 {
   //animation-name: infinite-spinning;
@@ -220,6 +247,7 @@ path#Path_11 {
 }
 
 
+
 @media screen and(max-width: 900px) {
   .hero__body--image{
     width: 50%;
@@ -230,7 +258,7 @@ path#Path_11 {
   }
 }
 
-@media screen and(max-width: 500px) {
+@media screen and(max-width: 610px) {
 
   header {
     flex-direction: column;
@@ -271,4 +299,20 @@ path#Path_11 {
     text-align: center;
   }
 
+  footer{
+    margin-top: 10px;
+    // padding: 60px 0 20px;
+  }
+
+  .footer__email > a {
+    font-size: 36px;
+  }
+
 }
+
+@media screen and(max-width: 320px) {
+  .footer__email > a {
+      font-size: 24px;
+    }
+  
+  }
