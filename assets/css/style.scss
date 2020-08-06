@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Rowdies:wght@300;400;700&display=swap');
 
 :root {
-  --primary-color: #AC00FC;
-  // --primary-color: #001eff;
+  // --primary-color: #AC00FC;
+  --primary-color: #001eff;
   --secodary-color: #F3A10F;
   --gray-color: #393939;
   --black-color: #000000;;
@@ -29,15 +29,17 @@ body {
 }
 
 h5{
-  font-size: 18px;
-  color: var(--gray-color);
+  font-size: 24px;
+  color: var(--black-color);
   margin-top: 8px;
   margin-bottom: 32px;
+  font-weight: 600;
 }
 
 p {
   margin-bottom: 16px;
   color: #747474;
+  font-size: 18px;
 }
 
 a {
@@ -140,6 +142,73 @@ nav > a > img {
 
 .social-icon > a {
   margin-right: 16px;
+}
+
+// Portfolio
+
+.portfolio__body{
+  padding: 64px 32px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grid-galery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  & .grid-galery__item {
+    width: 48%;
+    box-shadow: 0 1px 30px -5px rgba(0,0,0,.47);
+    height: 512px;
+    max-height: 512px;
+    margin-bottom: 32px;
+  }
+  
+  & .grid-galery__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  & .grid-galery__item--img-left {
+    object-position: center left !important;
+  }
+
+}
+
+.portfolio__description h1{
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.tools {
+  margin-top: 48px;
+
+  & li {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 16px;
+    
+    margin-bottom: 16px;
+
+    font-weight: 700;
+  }
+
+  
+
+
+
+}
+
+.portfolio__images,
+.portfolio__description {
+  // border: 1px solid red;
+  width: 48%;
 }
 
 // Footer
@@ -298,6 +367,31 @@ path#Path_11 {
     display: block;
     width: 100%;
     text-align: center;
+  }
+
+  .portfolio__body {
+    flex-direction: column;
+    flex-flow: column-reverse;
+  }
+
+  .portfolio__images,
+  .portfolio__description {
+    // border: 1px solid green;
+    width: 96%;
+    margin-bottom: 48px;
+  }
+
+  // & .grid-galery__item {
+  //   width: 48%;
+  //   box-shadow: 0 1px 30px -5px rgba(0,0,0,.47);
+  //   height: 512px;
+  //   max-height: 512px;
+  //   margin-bottom: 32px;
+  // }
+
+  .grid-galery__item {
+    width: 96%;
+    height: 280px;
   }
 
   footer{
